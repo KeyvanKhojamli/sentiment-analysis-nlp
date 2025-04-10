@@ -1,3 +1,18 @@
-.venv/
-*.log
+# Python bytecode files
+*.pyc
+*.pyo
+pycache/
+
+# Virtual environment folder
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 data/test*
+
+# Model files (if you want to exclude them from Git)
+*.pkl
+
+# Logs
+*.log
