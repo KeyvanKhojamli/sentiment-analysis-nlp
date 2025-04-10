@@ -1,7 +1,7 @@
 from datasets import load_dataset
 import pandas as pd
 
-dataset = load_dataset("imdb" ,split="train[:10000]")
+dataset = load_dataset("imdb" ,split="train")
 
 df = pd.DataFrame({
     "text" : dataset["text"],
